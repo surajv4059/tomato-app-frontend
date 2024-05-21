@@ -5,7 +5,7 @@ import { useContext, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { StoreContext } from '../../context/StoreContext'
 
-
+ 
 const Navbar = ({setShowLogin}) => {
 
     const [menu, setMenu] = useState("home");
