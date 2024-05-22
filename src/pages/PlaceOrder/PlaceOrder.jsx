@@ -44,8 +44,8 @@ const PlaceOrder = () => {
     // console.log(response.data) 
     if(response.data.success){
       const {success_url} = response.data;
-      // window.location.replace(success_url);
-      navigate("/myorders")
+      window.location.replace(success_url);
+      // navigate("/verify")
     }
     else {
       alert("Error")
